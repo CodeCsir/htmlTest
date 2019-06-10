@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单</title>
+</head>
+<body>
+    <!--action:表单处理程序提交地址； enctype:表单编码方式-->
+    <form method="post" action="index.php">
+        文本：<input type="text" name="text"/><br/>
+        密码：<input type="password" name="pwd"/><br/>
+        文件：<input type="file" name="file"/><br/>
+        复选：<input type="checkbox" name="cb"/>语文<input type="checkbox" name="cb"/>数学<br/>
+        单选：<input type="radio" name="ra" />男<input type="radio" name="ra"/>女<br/>
+        图像:<input type="image" src="https://res.wx.qq.com/open/zh_CN/htmledition/res/img/pic/mp-dev-guide/dev_code3b8804.jpg" width="100" height="100"/><br/>
+        普通按钮:<input type="button" value="点我"/><br/>
+        提交按钮:<input type="submit" value="提交"/><br/>
+        重置按钮:<input type="reset" value="重置"/><br/>
+        列表框：
+        <select>
+            <option>北京</option>
+            <option>天津</option>
+            <option>广州</option>
+            <option>上海</option>
+        </select>
+        <br/>
+        文本域：
+        <textarea rows="5" cols="10"></textarea>
+        <br/>
+    </form>
+</body>
+</html>
